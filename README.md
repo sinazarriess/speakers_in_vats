@@ -1,12 +1,17 @@
 
 
-## Do you copy me?
+# Do you copy me? / Referring expression generation in space
 
-# Code
+## Code
 
-* `load_lstm_spaces.py`: simply shows how to load the embeddings files in the data dir
+* code for loading spaces produced by REG models
+* a bit of cbow training on reg spaces
 
-# Data
+## Eval
+
+* scripts for doing evaluation on similarity judgements
+
+## Data
 
 * embeddings: numpy files with embedding matrices (extracted from tensorflow checkpoints)
 * word ids: json files that map words to ids, these ids correspond to the row index in the corresponding embedding matrix
